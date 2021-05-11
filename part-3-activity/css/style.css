@@ -11,6 +11,7 @@
   height: 175px;
   position: absolute;
   left: 75%;
+  animation: balloon 5s ease-in-out 5 alternate-reverse;
 }
 .balloon-container .balloon {
   background-image: URL("../images/balloon.png");
@@ -21,6 +22,17 @@
   background-size: contain;
 }
 
+@keyframes car-animation {
+  0% {
+    left: 0;
+  }
+  30%, 40% {
+    left: 20%;
+  }
+  100% {
+    left: 110%;
+  }
+}
 .car {
   height: 60px;
   width: 200px;
@@ -32,11 +44,10 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 99;
+  animation: car-animation 3s 3s both;
 }
-.car:hover {
-  cursor: pointer;
-}
-.car .wheel {
+
+.wheel {
   height: 32px;
   width: 32px;
   position: absolute;
@@ -46,10 +57,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-.car .wheel.back {
+.wheel.back {
   left: 28px;
 }
-.car .wheel.front {
+.wheel.front {
   left: 155px;
 }
 

@@ -12,7 +12,7 @@
 	height: 175px;
 	position: absolute;
 	left: 75%;
-
+	animation: balloon 5s ease-in-out 5 alternate-reverse;
 	.balloon {
 		background-image: URL("../images/balloon.png");
 		width: 100%;
