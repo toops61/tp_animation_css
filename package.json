@@ -1,0 +1,19 @@
+{
+  "name": "tp_final_animation",
+  "version": "1.0.0",
+  "description": "Ce repository contient les fichiers nécessaires aux activités 2 et 3 du cours Créez des animations CSS modernes sur [OpenClassrooms](http://openclassrooms.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atoulmet/openclassrooms_css-animations.git"
+  },
+  "author": "Toops61",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atoulmet/openclassrooms_css-animations/issues"
+  },
+  "homepage": "https://github.com/atoulmet/openclassrooms_css-animations#readme"
+}
